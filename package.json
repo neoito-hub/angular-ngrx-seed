@@ -21,8 +21,13 @@
     "@angular/platform-browser": "^5.2.0",
     "@angular/platform-browser-dynamic": "^5.2.0",
     "@angular/router": "^5.2.0",
+    "@ngrx/effects": "^5.2.0",
+    "@ngrx/entity": "^5.2.0",
+    "@ngrx/router-store": "^5.2.0",
+    "@ngrx/store": "^5.2.0",
+    "@ngrx/store-devtools": "^5.2.0",
     "core-js": "^2.4.1",
-    "rxjs": "^5.5.6",
+    "rxjs": "^5.5.10",
     "zone.js": "^0.8.19"
   },
   "devDependencies": {
