@@ -1,15 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { reducers } from './reducers/index';
 import { StoreModule } from '@ngrx/store';
-import { EffectsModule } from '@ngrx/effects';
-import { HomeService } from './home/services/home.service';
-import { HomeEffects } from './home/effects/home.effects';
 import {
   StoreRouterConnectingModule,
   StoreRouterConfig
 } from '@ngrx/router-store';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
+
+// app
+import { reducers } from './root-reducer/index';
+import { EffectsModule } from '@ngrx/effects';
+import { HomeService } from './home/services/home.service';
+import { HomeEffects } from './home/effects/home.effects';
 
 @NgModule({
   imports: [
